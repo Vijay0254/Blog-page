@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Blog Project</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="bg-green-200">
+        <nav class="flex justify-between items-center mx-3">
+            <div>
+                <a href="#"><img class="rounded-full h-14 w-14 my-3" src="https://picsum.photos/200" alt="logo"></a>
+            </div>
+            <ul class="flex justify-around w-3/5 items-center">
+                <li><a class="hover:text-red-400 text-xs md:text-base" href="#">Services</a></li>
+                <li><a class="hover:text-red-400 text-xs md:text-base" href="#">Pricing</a></li>
+                <li><a class="hover:text-red-400 text-xs md:text-base" href="#">About</a></li>
+                <li><a class="hover:text-red-400 text-xs md:text-base" href="#">Contact</a></li>
+            </ul>
+            <button class="px-3 text-white text-xs rounded-full h-7 bg-green-600 hover:bg-slate-400 md:h-9 md:px-6 md:text-base">Signup</button>
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+     <div class="container flex flex-col md:flex-row my-12 items-center justify-center ">
+        <div class="flex flex-col items-center">
+            <p class="text-center px-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates possimus quos fugiat facere ea dolore illo non quo cupiditate velit!</p>
+            <button class="mt-5 font-bold hover:bg-orange-400 bg-blue-700 py-2 rounded-full text-white text-sm w-2/5">Get Started</button>
+        </div>
+        <div>
+            <img src="./assets/hero1.png" alt="hero1">
+        </div>
+     </div>
+
+     <!-- MAIN SECTION -->
+      <main class="container flex gap-3">
+        <div class="flex flex-col justify-between">
+            <h1 class="text-center font-bold">Web Development</h1>
+            <img src="./assets/main1.png" alt="main1">
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt aspernatur atque vero, saepe cum quaerat dolorem exercitationem temporibus id?</p>
+        </div>
+        <div class="flex flex-col justify-between">
+            <h1 class="text-center font-bold">Mobile App Development</h1>
+            <img src="./assets/main2.png" alt="main2">
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt aspernatur atque vero, saepe cum quaerat dolorem exercitationem temporibus id?</p>
+        </div>
+        <div class="flex flex-col justify-between">
+            <h1 class="text-center font-bold">Design</h1>
+            <img src="./assets/main3.png" alt="main3">
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt aspernatur atque vero, saepe cum quaerat dolorem exercitationem temporibus id?</p>
+        </div>
+      </main>
+
+      <!-- PRICING SECTION -->
+       <div class="my-10 relative">
+            <div class="text-center mb-7">
+                <h1 class="text-green-500 pb-1 text-2xl font-bold">Pricing</h1>
+                <p>Offers multiple packages for Monthly and Yearly subscriptions</p>
+                <p>Featured Plans are here</p>
+            </div>
+            <div class="flex justify-evenly gap-2">
+                <div class="bg-violet-200 md:w-1/4 p-4 rounded-md cursor-pointer hover:scale-110 hover:duration-1000">
+                    <h1 class="text-center text-lg font-bold md:text-5xl">$99</h1>
+                    <h2 class=" pt-1 pb-3 text-center font-bold text-green-500">Basic</h2>
+                    <p class=" text-sm md:text-base text-center pb-3">All Basic Features are included</p>
+                    <ul>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-red-500 p-1 rounded-sm" src="./assets/cross-button.png" alt="cross">
+                            <p class="pl-2 text-xs md:text-base">Customized Features</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-red-500 p-1 rounded-sm" src="./assets/cross-button.png" alt="cross">
+                            <p class="pl-2 text-xs md:text-base">Dual Features</p>
+                        </li>
+                    </ul>
+                    <div class="flex justify-center">
+                        <button class="absolute bottom-0 translate-y-4 bg-violet-600 text-white px-2 md:px-4 py-1 rounded-full hover:bg-violet-400 text-sm md:text-base">Get Started</button>
+                    </div>
+                </div>
+                <div class="bg-violet-200 md:w-1/4 p-4 rounded-md border-dashed border-4 border-violet-500 cursor-pointer hover:scale-110 hover:duration-1000">
+                    <h1 class="text-center text-lg font-bold md:text-5xl">$199</h1>
+                    <h2 class=" pt-1 pb-3 text-center font-bold text-green-500">Advanced</h2>
+                    <p class=" text-sm md:text-base text-center pb-3">All Professional Features are included</p>
+                    <ul>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Customized Features</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-red-500 p-1 rounded-sm" src="./assets/cross-button.png" alt="cross">
+                            <p class="pl-2 text-xs md:text-base">Dual Features</p>
+                        </li>
+                    </ul>
+                    <div class="flex justify-center">
+                        <button class="absolute bottom-0 translate-y-4 bg-violet-600 text-white px-2 md:px-4 py-1 rounded-full hover:bg-violet-400 text-sm md:text-base">Get Started</button>
+                    </div>
+                </div>
+                <div class="bg-violet-200 rounded-md md:w-1/4 p-4 cursor-pointer hover:scale-110 hover:duration-1000">
+                    <h1 class="text-center text-lg font-bold md:text-5xl">$299</h1>
+                    <h2 class="pt-1 pb-3 text-center font-bold text-green-500">Business</h2>
+                    <p class=" text-sm md:text-base text-center pb-3">For Multiple Business people</p>
+                    <ul>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm"" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Core Business System</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Customized Features</p>
+                        </li>
+                        <li class="flex py-2 md:pl-3 items-center">
+                            <img class="h-4 md:h-5 bg-purple-400 p-1 rounded-sm" src="./assets/check.png" alt="check">
+                            <p class="pl-2 text-xs md:text-base">Dual Features</p>
+                        </li>
+                    </ul>
+                    <div class="flex justify-center">
+                        <button class="absolute bottom-0 translate-y-4 bg-violet-600 text-white px-2 md:px-4 py-1 rounded-full hover:bg-violet-400 text-sm md:text-base">Get Started</button>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!-- STORY SECTION -->
+        <div class="mb-4">
+            <div class="text-center mt-4 mb-5">
+                <h1>Recent Updates</h1>
+                <h1 class="font-normal text-5xl py-2">Featured Stories</h1>
+            </div>
+            <div class="flex justify-evenly gap-3 mx-1 md:mx-5">
+                <div class="bg-violet-200">
+                    <img class="h-48 w-full" src="https://picsum.photos/200" alt="story1">
+                    <h1 class="text-center py-3 md:text-lg text-violet-500">Google Rankings</h1>
+                    <p class="text-center text-sm md:text-base px-4 mb-3">Make it connect with every client worldwide</p>
+                </div>
+                <div class="bg-violet-200">
+                    <img class="h-48 w-full" src="https://picsum.photos/200" alt="story1">
+                    <h1 class="text-center py-3 md:text-lg text-violet-500">Communication</h1>
+                    <p class="text-center text-sm md:text-base px-4 mb-3">Best Communication for the Business</p>
+                </div>
+                <div class="bg-violet-200">
+                    <img class="h-48 w-full" src="https://picsum.photos/200" alt="story1">
+                    <h1 class="text-center py-3 md:text-lg text-violet-500">Remote working</h1>
+                    <p class="text-center text-sm md:text-base px-4 mb-3">Remote Connectivity for Consistent</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+         <footer class="bg-violet-400 py-4">
+            <div class="flex justify-between mx-5 md:mx-12">
+                <div>
+                    <h2 class="font-medium text-lg">Copyrights 2024 &copy;</h2>
+                </div>
+                <div class="flex justify-evenly items-center w-2/5 md:w-1/5" >
+                    <img class="h-6 cursor-pointer" src="./assets/instagram.png" alt="insta">
+                    <img class="h-6 cursor-pointer" src="./assets/facebook.png" alt="facebook">
+                    <img class="h-6 cursor-pointer" src="./assets/twitter.png" alt="twitter">
+                </div>
+            </div>
+         </footer>
+</body>
+</html>
